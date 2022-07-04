@@ -1,5 +1,1 @@
-#include <iostream>
-
-void say_hello(){
-    std::cout << "Hello, from Taipan!\n";
-}
+#include "tap/Taipan.h"

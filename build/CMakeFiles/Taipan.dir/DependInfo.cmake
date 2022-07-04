@@ -4,7 +4,9 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
+  "/home/ecence/Documents/C++/Taipan/src/CoreApplication.cpp" "/home/ecence/Documents/C++/Taipan/build/CMakeFiles/Taipan.dir/src/CoreApplication.cpp.o"
   "/home/ecence/Documents/C++/Taipan/src/Taipan.cpp" "/home/ecence/Documents/C++/Taipan/build/CMakeFiles/Taipan.dir/src/Taipan.cpp.o"
+  "/home/ecence/Documents/C++/Taipan/src/Taplet.cpp" "/home/ecence/Documents/C++/Taipan/build/CMakeFiles/Taipan.dir/src/Taplet.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

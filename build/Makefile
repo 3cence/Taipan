@@ -520,6 +520,33 @@ ContinuousSubmit/fast:
 	$(MAKE) -f CMakeFiles/ContinuousSubmit.dir/build.make CMakeFiles/ContinuousSubmit.dir/build
 .PHONY : ContinuousSubmit/fast
 
+src/CoreApplication.o: src/CoreApplication.cpp.o
+
+.PHONY : src/CoreApplication.o
+
+# target to build an object file
+src/CoreApplication.cpp.o:
+	$(MAKE) -f CMakeFiles/Taipan.dir/build.make CMakeFiles/Taipan.dir/src/CoreApplication.cpp.o
+.PHONY : src/CoreApplication.cpp.o
+
+src/CoreApplication.i: src/CoreApplication.cpp.i
+
+.PHONY : src/CoreApplication.i
+
+# target to preprocess a source file
+src/CoreApplication.cpp.i:
+	$(MAKE) -f CMakeFiles/Taipan.dir/build.make CMakeFiles/Taipan.dir/src/CoreApplication.cpp.i
+.PHONY : src/CoreApplication.cpp.i
+
+src/CoreApplication.s: src/CoreApplication.cpp.s
+
+.PHONY : src/CoreApplication.s
+
+# target to generate assembly for a file
+src/CoreApplication.cpp.s:
+	$(MAKE) -f CMakeFiles/Taipan.dir/build.make CMakeFiles/Taipan.dir/src/CoreApplication.cpp.s
+.PHONY : src/CoreApplication.cpp.s
+
 src/Taipan.o: src/Taipan.cpp.o
 
 .PHONY : src/Taipan.o
@@ -546,6 +573,33 @@ src/Taipan.s: src/Taipan.cpp.s
 src/Taipan.cpp.s:
 	$(MAKE) -f CMakeFiles/Taipan.dir/build.make CMakeFiles/Taipan.dir/src/Taipan.cpp.s
 .PHONY : src/Taipan.cpp.s
+
+src/Taplet.o: src/Taplet.cpp.o
+
+.PHONY : src/Taplet.o
+
+# target to build an object file
+src/Taplet.cpp.o:
+	$(MAKE) -f CMakeFiles/Taipan.dir/build.make CMakeFiles/Taipan.dir/src/Taplet.cpp.o
+.PHONY : src/Taplet.cpp.o
+
+src/Taplet.i: src/Taplet.cpp.i
+
+.PHONY : src/Taplet.i
+
+# target to preprocess a source file
+src/Taplet.cpp.i:
+	$(MAKE) -f CMakeFiles/Taipan.dir/build.make CMakeFiles/Taipan.dir/src/Taplet.cpp.i
+.PHONY : src/Taplet.cpp.i
+
+src/Taplet.s: src/Taplet.cpp.s
+
+.PHONY : src/Taplet.s
+
+# target to generate assembly for a file
+src/Taplet.cpp.s:
+	$(MAKE) -f CMakeFiles/Taipan.dir/build.make CMakeFiles/Taipan.dir/src/Taplet.cpp.s
+.PHONY : src/Taplet.cpp.s
 
 # Help Target
 help:
@@ -587,9 +641,15 @@ help:
 	@echo "... ContinuousMemCheck"
 	@echo "... ContinuousTest"
 	@echo "... ContinuousSubmit"
+	@echo "... src/CoreApplication.o"
+	@echo "... src/CoreApplication.i"
+	@echo "... src/CoreApplication.s"
 	@echo "... src/Taipan.o"
 	@echo "... src/Taipan.i"
 	@echo "... src/Taipan.s"
+	@echo "... src/Taplet.o"
+	@echo "... src/Taplet.i"
+	@echo "... src/Taplet.s"
 .PHONY : help
 
 

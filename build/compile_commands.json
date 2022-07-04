@@ -3,5 +3,15 @@
   "directory": "/home/ecence/Documents/C++/Taipan/build",
   "command": "/usr/bin/g++   -I/home/ecence/Documents/C++/Taipan/include  -g   -o CMakeFiles/Taipan.dir/src/Taipan.cpp.o -c /home/ecence/Documents/C++/Taipan/src/Taipan.cpp",
   "file": "/home/ecence/Documents/C++/Taipan/src/Taipan.cpp"
+},
+{
+  "directory": "/home/ecence/Documents/C++/Taipan/build",
+  "command": "/usr/bin/g++   -I/home/ecence/Documents/C++/Taipan/include  -g   -o CMakeFiles/Taipan.dir/src/CoreApplication.cpp.o -c /home/ecence/Documents/C++/Taipan/src/CoreApplication.cpp",
+  "file": "/home/ecence/Documents/C++/Taipan/src/CoreApplication.cpp"
+},
+{
+  "directory": "/home/ecence/Documents/C++/Taipan/build",
+  "command": "/usr/bin/g++   -I/home/ecence/Documents/C++/Taipan/include  -g   -o CMakeFiles/Taipan.dir/src/Taplet.cpp.o -c /home/ecence/Documents/C++/Taipan/src/Taplet.cpp",
+  "file": "/home/ecence/Documents/C++/Taipan/src/Taplet.cpp"
 }
 ]

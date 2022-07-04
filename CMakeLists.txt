@@ -6,7 +6,9 @@ enable_testing()
 
 include_directories("include/"
 "/usr/include")
-add_library(Taipan src/Taipan.cpp)
+add_library(Taipan src/Taipan.cpp
+src/CoreApplication.cpp
+src/Taplet.cpp)
 
 target_link_libraries(Taipan SDL2 SDL2main SDL2ttf)
 

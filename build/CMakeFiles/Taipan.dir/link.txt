@@ -1,2 +1,2 @@
-/usr/bin/ar qc libTaipan.a  CMakeFiles/Taipan.dir/src/Taipan.cpp.o
+/usr/bin/ar qc libTaipan.a  CMakeFiles/Taipan.dir/src/Taipan.cpp.o CMakeFiles/Taipan.dir/src/CoreApplication.cpp.o CMakeFiles/Taipan.dir/src/Taplet.cpp.o
 /usr/bin/ranlib libTaipan.a
