@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/Taipan.dir/src/CoreApplication.cpp.o"
   "CMakeFiles/Taipan.dir/src/Taipan.cpp.o"
-  "CMakeFiles/Taipan.dir/src/Taplet.cpp.o"
+  "CMakeFiles/Taipan.dir/src/TapObject.cpp.o"
   "libTaipan.a"
   "libTaipan.pdb"
 )

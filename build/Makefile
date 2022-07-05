@@ -574,32 +574,32 @@ src/Taipan.cpp.s:
 	$(MAKE) -f CMakeFiles/Taipan.dir/build.make CMakeFiles/Taipan.dir/src/Taipan.cpp.s
 .PHONY : src/Taipan.cpp.s
 
-src/Taplet.o: src/Taplet.cpp.o
+src/TapObject.o: src/TapObject.cpp.o
 
-.PHONY : src/Taplet.o
+.PHONY : src/TapObject.o
 
 # target to build an object file
-src/Taplet.cpp.o:
-	$(MAKE) -f CMakeFiles/Taipan.dir/build.make CMakeFiles/Taipan.dir/src/Taplet.cpp.o
-.PHONY : src/Taplet.cpp.o
+src/TapObject.cpp.o:
+	$(MAKE) -f CMakeFiles/Taipan.dir/build.make CMakeFiles/Taipan.dir/src/TapObject.cpp.o
+.PHONY : src/TapObject.cpp.o
 
-src/Taplet.i: src/Taplet.cpp.i
+src/TapObject.i: src/TapObject.cpp.i
 
-.PHONY : src/Taplet.i
+.PHONY : src/TapObject.i
 
 # target to preprocess a source file
-src/Taplet.cpp.i:
-	$(MAKE) -f CMakeFiles/Taipan.dir/build.make CMakeFiles/Taipan.dir/src/Taplet.cpp.i
-.PHONY : src/Taplet.cpp.i
+src/TapObject.cpp.i:
+	$(MAKE) -f CMakeFiles/Taipan.dir/build.make CMakeFiles/Taipan.dir/src/TapObject.cpp.i
+.PHONY : src/TapObject.cpp.i
 
-src/Taplet.s: src/Taplet.cpp.s
+src/TapObject.s: src/TapObject.cpp.s
 
-.PHONY : src/Taplet.s
+.PHONY : src/TapObject.s
 
 # target to generate assembly for a file
-src/Taplet.cpp.s:
-	$(MAKE) -f CMakeFiles/Taipan.dir/build.make CMakeFiles/Taipan.dir/src/Taplet.cpp.s
-.PHONY : src/Taplet.cpp.s
+src/TapObject.cpp.s:
+	$(MAKE) -f CMakeFiles/Taipan.dir/build.make CMakeFiles/Taipan.dir/src/TapObject.cpp.s
+.PHONY : src/TapObject.cpp.s
 
 # Help Target
 help:
@@ -647,9 +647,9 @@ help:
 	@echo "... src/Taipan.o"
 	@echo "... src/Taipan.i"
 	@echo "... src/Taipan.s"
-	@echo "... src/Taplet.o"
-	@echo "... src/Taplet.i"
-	@echo "... src/Taplet.s"
+	@echo "... src/TapObject.o"
+	@echo "... src/TapObject.i"
+	@echo "... src/TapObject.s"
 .PHONY : help
 
 

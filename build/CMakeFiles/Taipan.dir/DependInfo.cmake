@@ -6,7 +6,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 set(CMAKE_DEPENDS_CHECK_CXX
   "/home/ecence/Documents/C++/Taipan/src/CoreApplication.cpp" "/home/ecence/Documents/C++/Taipan/build/CMakeFiles/Taipan.dir/src/CoreApplication.cpp.o"
   "/home/ecence/Documents/C++/Taipan/src/Taipan.cpp" "/home/ecence/Documents/C++/Taipan/build/CMakeFiles/Taipan.dir/src/Taipan.cpp.o"
-  "/home/ecence/Documents/C++/Taipan/src/Taplet.cpp" "/home/ecence/Documents/C++/Taipan/build/CMakeFiles/Taipan.dir/src/Taplet.cpp.o"
+  "/home/ecence/Documents/C++/Taipan/src/TapObject.cpp" "/home/ecence/Documents/C++/Taipan/build/CMakeFiles/Taipan.dir/src/TapObject.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

@@ -1,13 +1,13 @@
 #include "tap/CoreApplication.h"
-#include "tap/Taplet.h"
+#include "tap/TapObject.h"
 
 namespace tap
 {
     int CoreApplication::update()
     {
-        for (int i = 0; i < Taplet::allTapletObjects.size(); i++)
+        for (int i = 0; i < TapObject::allTapObjectObjects.size(); i++)
         {
-            Taplet::allTapletObjects[i]->update();
+            TapObject::allTapObjectObjects[i]->update();
         }
         return 0;
     }

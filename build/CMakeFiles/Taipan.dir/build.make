@@ -83,31 +83,31 @@ CMakeFiles/Taipan.dir/src/CoreApplication.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Taipan.dir/src/CoreApplication.cpp.s"
 	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ecence/Documents/C++/Taipan/src/CoreApplication.cpp -o CMakeFiles/Taipan.dir/src/CoreApplication.cpp.s
 
-CMakeFiles/Taipan.dir/src/Taplet.cpp.o: CMakeFiles/Taipan.dir/flags.make
-CMakeFiles/Taipan.dir/src/Taplet.cpp.o: ../src/Taplet.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ecence/Documents/C++/Taipan/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Taipan.dir/src/Taplet.cpp.o"
-	/usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Taipan.dir/src/Taplet.cpp.o -c /home/ecence/Documents/C++/Taipan/src/Taplet.cpp
+CMakeFiles/Taipan.dir/src/TapObject.cpp.o: CMakeFiles/Taipan.dir/flags.make
+CMakeFiles/Taipan.dir/src/TapObject.cpp.o: ../src/TapObject.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ecence/Documents/C++/Taipan/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Taipan.dir/src/TapObject.cpp.o"
+	/usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Taipan.dir/src/TapObject.cpp.o -c /home/ecence/Documents/C++/Taipan/src/TapObject.cpp
 
-CMakeFiles/Taipan.dir/src/Taplet.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Taipan.dir/src/Taplet.cpp.i"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ecence/Documents/C++/Taipan/src/Taplet.cpp > CMakeFiles/Taipan.dir/src/Taplet.cpp.i
+CMakeFiles/Taipan.dir/src/TapObject.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Taipan.dir/src/TapObject.cpp.i"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ecence/Documents/C++/Taipan/src/TapObject.cpp > CMakeFiles/Taipan.dir/src/TapObject.cpp.i
 
-CMakeFiles/Taipan.dir/src/Taplet.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Taipan.dir/src/Taplet.cpp.s"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ecence/Documents/C++/Taipan/src/Taplet.cpp -o CMakeFiles/Taipan.dir/src/Taplet.cpp.s
+CMakeFiles/Taipan.dir/src/TapObject.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Taipan.dir/src/TapObject.cpp.s"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ecence/Documents/C++/Taipan/src/TapObject.cpp -o CMakeFiles/Taipan.dir/src/TapObject.cpp.s
 
 # Object files for target Taipan
 Taipan_OBJECTS = \
 "CMakeFiles/Taipan.dir/src/Taipan.cpp.o" \
 "CMakeFiles/Taipan.dir/src/CoreApplication.cpp.o" \
-"CMakeFiles/Taipan.dir/src/Taplet.cpp.o"
+"CMakeFiles/Taipan.dir/src/TapObject.cpp.o"
 
 # External object files for target Taipan
 Taipan_EXTERNAL_OBJECTS =
 
 libTaipan.a: CMakeFiles/Taipan.dir/src/Taipan.cpp.o
 libTaipan.a: CMakeFiles/Taipan.dir/src/CoreApplication.cpp.o
-libTaipan.a: CMakeFiles/Taipan.dir/src/Taplet.cpp.o
+libTaipan.a: CMakeFiles/Taipan.dir/src/TapObject.cpp.o
 libTaipan.a: CMakeFiles/Taipan.dir/build.make
 libTaipan.a: CMakeFiles/Taipan.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/ecence/Documents/C++/Taipan/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX static library libTaipan.a"

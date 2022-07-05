@@ -11,7 +11,7 @@
 },
 {
   "directory": "/home/ecence/Documents/C++/Taipan/build",
-  "command": "/usr/bin/g++   -I/home/ecence/Documents/C++/Taipan/include  -g   -o CMakeFiles/Taipan.dir/src/Taplet.cpp.o -c /home/ecence/Documents/C++/Taipan/src/Taplet.cpp",
-  "file": "/home/ecence/Documents/C++/Taipan/src/Taplet.cpp"
+  "command": "/usr/bin/g++   -I/home/ecence/Documents/C++/Taipan/include  -g   -o CMakeFiles/Taipan.dir/src/TapObject.cpp.o -c /home/ecence/Documents/C++/Taipan/src/TapObject.cpp",
+  "file": "/home/ecence/Documents/C++/Taipan/src/TapObject.cpp"
 }
 ]
