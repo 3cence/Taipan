@@ -1,2 +1,0 @@
-/usr/bin/ar qc libTaipan.a  CMakeFiles/Taipan.dir/src/Taipan.cpp.o CMakeFiles/Taipan.dir/src/CoreApplication.cpp.o CMakeFiles/Taipan.dir/src/TapObject.cpp.o
-/usr/bin/ranlib libTaipan.a
