@@ -13,7 +13,7 @@ namespace tap
         int objectID;
 
         TapObject();
-        virtual int update(SDL_Event) {return -1;};
+        virtual int update(std::vector<SDL_Event>) {return -1;};
     };
 }
 
