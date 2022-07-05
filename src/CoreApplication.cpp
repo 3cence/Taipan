@@ -5,9 +5,9 @@ namespace tap
 {
     int CoreApplication::update()
     {
-        for (int i = 0; i < TapObject::allTapObjectObjects.size(); i++)
+        for (int i = 0; i < TapObject::allTapObjects.size(); i++)
         {
-            TapObject::allTapObjectObjects[i]->update();
+            TapObject::allTapObjects[i]->update();
         }
         return 0;
     }

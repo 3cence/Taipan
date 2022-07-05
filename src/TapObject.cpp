@@ -3,11 +3,11 @@
 
 namespace tap
 {
-    std::vector<TapObject*> TapObject::allTapObject;
+    std::vector<TapObject*> TapObject::allTapObjects;
 
     TapObject::TapObject()
     {
-        objectID = TapObject::allTapObject.size();
-        TapObject::allTapObject.push_back(this);
+        objectID = TapObject::allTapObjects.size();
+        TapObject::allTapObjects.push_back(this);
     }
 }

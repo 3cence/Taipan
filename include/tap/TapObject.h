@@ -9,7 +9,7 @@ namespace tap
     class TapObject 
     {
     public:
-        static std::vector<TapObject*> allTapObject;
+        static std::vector<TapObject*> allTapObjects;
         int objectID;
 
         TapObject();
