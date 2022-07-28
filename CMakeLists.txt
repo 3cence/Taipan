@@ -8,9 +8,10 @@ include_directories("include/"
 "/usr/include")
 add_library(Taipan src/Taipan.cpp
 src/CoreApplication.cpp
-src/TapObject.cpp)
+src/TapObject.cpp
+src/Window.cpp)
 
-target_link_libraries(Taipan SDL2 SDL2main SDL2ttf)
+target_link_libraries(Taipan SDL2.a SDL2main.a SDL2ttf.a)
 
 set(CPACK_PROJECT_NAME ${PROJECT_NAME})
 set(CPACK_PROJECT_VERSION ${PROJECT_VERSION})

@@ -22,6 +22,7 @@ namespace tap
         for (int i = 0; i < TapObject::allTapObjects.size(); i++)
         {
             TapObject::allTapObjects[i]->update(events);
+            
         }
         return 0;
     }
